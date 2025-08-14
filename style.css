@@ -670,6 +670,19 @@ button.btn {
   outline-offset: 2px;
 }
 
+#counter-container {
+  text-align: center;
+  margin-top: 3rem; 
+  margin-bottom: 3rem; 
+}
+
+.counter-text {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 1rem; 
+  color: white;
+  display: block;
+}
 
 
 /* Responsive Layout */
@@ -716,15 +729,5 @@ button.btn {
   }
 }
 
-#counter-container {
-  text-align: center;
-  margin-top: 2rem;
-}
 
-.counter-text {
-  font-size: 1rem;
-  font-weight: 500;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  color: white;
-}
+
