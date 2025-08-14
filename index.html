@@ -33,6 +33,10 @@
   <!--navbar-->
 <section id="navbar-section">
   <nav id="mid-navbar">
+    <button class="nav-toggle" aria-label="Toggle menu">
+      ☰ navigation
+    </button>
+
     <ul class="nav-table">
       <li><a href="#projects">projects<span class="arrow">→</span></a></li>
       <li><a href="#skills">skills<span class="arrow">→</span></a></li>
@@ -176,9 +180,16 @@
   <section id="experience" class="section">
     <h2 class="experience-heading">Experience</h2>
   <div class="timeline">
+    <div class="timeline-entry left">
+      <div class="timeline-content">
+        <h3 class="timeline-title">CURRENT | Profile Options Management Group: Web Development Intern</h3>
+        <p class="timeline-detail">Developing the official website of POMG, showcasing all services offered and enhancing overall 
+user experience. </p>
+      </div>
+    </div>
     <div class="timeline-entry right">
       <div class="timeline-content">
-        <h3 class="timeline-title">CURRENT | Fostride: Web Development Intern</h3>
+        <h3 class="timeline-title">Fostride: Web Development Intern</h3>
         <p class="timeline-detail">Contributing to the development of Fostride’s official company website as a web development intern.</p>
       </div>
     </div>
@@ -237,6 +248,16 @@
 </section>
 
 
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const toggle = document.querySelector(".nav-toggle");
+    const navTable = document.querySelector(".nav-table");
+
+    toggle.addEventListener("click", () => {
+      navTable.classList.toggle("show");
+    });
+  });
+</script>
 
 
 
