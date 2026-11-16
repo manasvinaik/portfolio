@@ -27,5 +27,5 @@ export default function App(){
   <section id="contact"><h2 className="rv"><Scramble text={next.title[0]}/>{' '}<span className="hl"><Scramble text={next.title[1]}/></span></h2>
  <div className="next rv">{next.buttons.map(b=><NextLink key={b.label} {...b}/>)}</div></section>
   <Waves/>
- </main><footer>© {new Date().getFullYear()} {me.name} — built from text</footer></>;
+ </main><footer>© {new Date().getFullYear()} {me.name} — built with ascii</footer></>;
 }
