@@ -1,0 +1,1 @@
+export function bayer(n){let m=[[0]],s=1;while(s<n){const t=s*2,N=Array.from({length:t},()=>Array(t));for(let y=0;y<s;y++)for(let x=0;x<s;x++){const v=m[y][x]*4;N[y][x]=v;N[y][x+s]=v+2;N[y+s][x]=v+3;N[y+s][x+s]=v+1}m=N;s=t}return m.map(r=>r.map(v=>(v+.5)/(n*n)))}
