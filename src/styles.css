@@ -89,3 +89,8 @@ a.card{display:block;color:inherit}a.card:hover .open{color:#fff}
 }
 @media(max-width:600px){.nav{padding:0 14px;font-size:11px}}
 @media(max-width:360px){.nav{padding:0 10px;font-size:10px}}
+
+/* loader on mobile */
+.loader{padding:0 16px;text-align:center;justify-items:center}
+.pf{font-size:clamp(26px,9vw,40px)}
+.bar{font-size:clamp(11px,3.4vw,15px);max-width:100%;overflow:hidden}
