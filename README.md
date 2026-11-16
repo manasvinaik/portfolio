@@ -80,6 +80,6 @@ This site is my corner of the internet: part portfolio, part experiment.
 
 <div align="center">
 
-<sub>© Manasvi Naik · built from text</sub>
+<sub>© Manasvi Naik · built with love & ascii</sub>
 
 </div>
